@@ -1,0 +1,12 @@
+pandas
+yfinance
+sqlalchemy
+mysql-connector-python
+matplotlib
+seaborn
+openpyxl
+numpy
+torch
+transformers
+sentencepiece
+accelerate

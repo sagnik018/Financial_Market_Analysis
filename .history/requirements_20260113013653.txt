@@ -1,0 +1,11 @@
+yfinance
+requew
+sqlalchemy
+mysql-connector-python
+matplotlib
+seaborn
+openpyxl
+pandas
+numpy
+json
+os

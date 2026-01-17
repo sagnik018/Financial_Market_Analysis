@@ -1,0 +1,10 @@
+yfinance
+requests
+sqlalchemy
+mysql-connector-python
+matplotlib
+seaborn
+openpyxl
+pandas
+numpy
+os

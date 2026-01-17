@@ -1,0 +1,6 @@
+pandas
+yfinance
+sqlalchemy
+mysql-connector-python
+matplotlib
+openpyxl
