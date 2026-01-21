@@ -22,7 +22,7 @@ SELECT
     adjusted_close,
     volume
 FROM stock_prices
-WHERE ticker = 'GOOGL'
+WHERE ticker = 'G'
 ORDER BY trade_date;
 """
 

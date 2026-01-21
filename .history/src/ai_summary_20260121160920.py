@@ -95,25 +95,7 @@ def generate_final_summary(row, use_llm=True):
 
 # Main Pipeline
 
-def run_ai_summary(
-    input_csv=r"D:\Financial_Market_Analysis\reports\analysis_summary.csv",
-    output_csv=r"D:\Financial_Market_Analysis\reports\ai_investment_summary.csv",
-    use_llm=True
-):
-    df = pd.read_csv(input_csv)
-
-    summaries = []
-    for _, row in df.iterrows():
-        summaries.append(generate_final_summary(row, use_llm))
-
-    df["investment_summary"] = summaries
-    df.to_csv(output_csv, index=False)
-
-    print("✅ AI Investment Summary generated successfully!")
-    print(f"📄 Saved to {output_csv}")
-    print(f"LLM Enhancement: {'ON' if use_llm else 'OFF'}")
 
 
 if __name__ == "__main__":
     run_ai_summary()
-
